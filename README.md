@@ -46,8 +46,8 @@ Se realizó un proceso completo de:
 ## Vista previa del proyecto
 
 <p align="center">
-  <img src="images/indap-overview.png" alt="Vista general INDAP" width="48%">
-  <img src="images/indap-finance.png" alt="Vista financiera INDAP" width="48%">
+  <img src="images/indap1.png" alt="Vista general INDAP" width="48%">
+  <img src="images/indap2.png" alt="Vista financiera INDAP" width="48%">
 </p>
 
 ## Documentación adicional

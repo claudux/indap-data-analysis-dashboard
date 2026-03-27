@@ -22,6 +22,7 @@ Se realizó un proceso completo de:
 - Excel
 - Power BI
 - Power Query
+- Python
 - Análisis de datos
 
 ## KPIs e indicadores clave

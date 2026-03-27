@@ -59,4 +59,6 @@ Se realizó un proceso completo de:
 Este repositorio presenta una versión adaptada del caso real, sin exponer datos sensibles ni información interna.
 
 ## Contacto
+
+Si quieres conocer más sobre este proyecto o mi trabajo en automatización y análisis de datos, puedes escribirme a:  
 [claudio.duran.m@gmail.com](mailto:claudio.duran.m@gmail.com)

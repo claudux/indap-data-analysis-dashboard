@@ -1,65 +1,76 @@
-# INDAP Data Analysis Dashboard
+# 🚜 INDAP Data Analysis Dashboard
 
-Análisis y visualización de datos para gestión territorial de productores agrícolas en INDAP La Unión.
+> Análisis y visualización de datos para la gestión territorial de productores agrícolas en INDAP La Unión.
 
-## Objetivo
-Transformar una base de datos de productores agrícolas en información útil para apoyar la gestión territorial, identificar patrones relevantes y responder preguntas clave para la toma de decisiones.
+## 📝 Objetivo
+Transformar una base de datos de productores agrícolas en información útil para apoyar la gestión territorial, identificar patrones relevantes y responder preguntas clave para la toma de decisiones institucionales.
 
-## Contexto
-Este proyecto se desarrolló a partir de una base de datos proporcionada por INDAP con información de productores agrícolas de la comuna de La Unión, Región de Los Ríos. A partir de esta base, se realizó un proceso de limpieza, análisis y visualización para generar indicadores críticos de gestión.
+## 📖 Contexto
+Este proyecto se desarrolló a partir de una base de datos proporcionada por INDAP, la cual contenía información sobre productores agrícolas de la comuna de La Unión, en la Región de Los Ríos. A partir de esta fuente, se ejecutó un proceso profundo de limpieza, análisis y visualización para generar indicadores críticos de gestión y distribución de recursos.
 
-## Problema
-La información disponible requería preparación y estructuración para poder ser analizada de manera efectiva y responder preguntas relevantes sobre asignaciones, créditos, intervención territorial, grupos etarios, género y composición étnica.
+## 🎯 Problema
+La información disponible requería un alto grado de preparación y estructuración para poder ser analizada de manera efectiva. Era necesario estandarizar los datos para responder preguntas relevantes sobre asignaciones monetarias, créditos otorgados, nivel de intervención territorial y características sociodemográficas de los beneficiarios (grupos etarios, género y composición étnica).
 
-## Solución desarrollada
-Se realizó un proceso completo de:
-- limpieza y normalización de datos
-- análisis exploratorio
-- definición de KPIs de gestión
-- construcción de visualizaciones orientadas a toma de decisiones
+## 💡 Solución Desarrollada
+Se realizó un proceso completo de *Business Intelligence* que incluyó:
+- Limpieza y normalización de datos.
+- Análisis exploratorio de los registros históricos.
+- Definición de KPIs orientados a la gestión de recursos públicos.
+- Construcción de visualizaciones interactivas para la toma de decisiones gerenciales.
 
-## Herramientas utilizadas
-- Excel
-- Power BI
-- Power Query
-- Python
-- Análisis de datos
+## 🛠️ Herramientas Utilizadas
+- **Lenguajes de Programación:** Python *(para automatización/tratamiento preliminar)*.
+- **Herramientas de Análisis:** Microsoft Excel, Power Query.
+- **Visualización:** Microsoft Power BI (DAX).
 
-## KPIs e indicadores clave
-- total de proyectos
-- total de asignaciones y créditos
-- proyectos por sector
-- proyectos por productor
-- asignaciones y créditos por sector
-- asignaciones y créditos por productor
-- eficiencia de ejecución
-- distribución por grupos etarios
-- distribución por grupos étnicos
-- diferencias por género
+## 📊 KPIs e Indicadores Clave
+- Total de proyectos financiados.
+- Monto total de asignaciones y créditos otorgados.
+- Proyectos distribuidos por sector geográfico.
+- Concentración de proyectos por productor.
+- Asignaciones y créditos segmentados por sector y productor.
+- Eficiencia de ejecución presupuestaria.
+- Distribución demográfica: Grupos etarios y composición étnica.
+- Brechas de financiamiento por género.
 
-## Preguntas de gestión que ayudó a responder
-- ¿Qué productor ha recibido mayor apoyo?
-- ¿Qué sectores han sido más intervenidos?
-- ¿Qué diferencias existen entre géneros?
-- ¿Qué diferencias existen entre grupos etarios?
-- ¿Cómo se distribuyen créditos y subsidios territorialmente?
+## ❓ Preguntas de Gestión que Ayudó a Responder
+- ¿Qué productor ha recibido la mayor cantidad de apoyo estatal?
+- ¿Qué sectores territoriales han sido más intervenidos con recursos?
+- ¿Qué diferencias de asignación existen entre géneros?
+- ¿Cómo se distribuyen los apoyos según los distintos grupos etarios?
+- ¿Cómo es la distribución territorial de los créditos versus los subsidios?
 
-## Vista previa del proyecto
+## 🔄 Flujo de Trabajo (Pipeline de Datos)
+
+## 🔄 Flujo de Trabajo (Pipeline de Datos)
+
+```mermaid
+flowchart LR
+    A["BBDD INDAP (Cruda)"] --> B["Limpieza con Python/Excel"]
+    B --> C["Modelamiento en Power Query"]
+    C --> D["Creación de Medidas DAX"]
+    D --> E["Diseño UI Dashboard"]
+    E --> F["Análisis Territorial y KPIs"]
+```
+
+## 👁️ Vista Previa del Proyecto
 
 <p align="center">
   <img src="images/indap1.png" alt="Vista general INDAP" width="48%">
   <img src="images/indap2.png" alt="Vista financiera INDAP" width="48%">
 </p>
 
-## Documentación adicional
-- [Contexto de negocio](docs/business-context.md)
-- [Proceso de limpieza de datos](docs/data-cleaning-process.md)
-- [Insights e indicadores clave](docs/insights-and-kpis.md)
+> **Nota:** Las imágenes mostradas corresponden a una versión adaptada para fines de portafolio.
 
-## Consideraciones
-Este repositorio presenta una versión adaptada del caso real, sin exponer datos sensibles ni información interna.
+## 📚 Documentación Adicional
+- 🏢 [Contexto de negocio](docs/business-context.md)
+- 🧹 [Proceso de limpieza de datos](docs/data-cleaning-process.md)
+- 📈 [Insights e indicadores clave](docs/insights-and-kpis.md)
 
-## Contacto
+## ⚠️ Consideraciones
+Este repositorio presenta una **versión adaptada del caso real**. Para cumplir con la confidencialidad institucional, no se exponen datos sensibles, información personal de los productores ni métricas internas reales.
 
-Si quieres conocer más sobre este proyecto o mi trabajo en automatización y análisis de datos, puedes escribirme a:  
-[claudio.duran.m@gmail.com](mailto:claudio.duran.m@gmail.com)
+## 📫 Contacto
+Si quieres conocer más sobre este proyecto o mi trabajo en automatización y análisis de datos, puedes contactarme:
+- 📧 **Email:** [claudio.duran.m@gmail.com](mailto:claudio.duran.m@gmail.com)
+- 💼 **LinkedIn:** [Claudio Durán Molina](https://www.linkedin.com/in/claudio-duran-molina-41580677)
